@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кошик</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Ваш кошик</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Головна</a></li>
+                <li><a href="index.html">Табуретки</a></li>
+                <li><a href="cart.html">Кошик</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="cart-container">
+        <h2>Ваші товари:</h2>
+        <ul id="cart-items"></ul>
+        <p>Загальна сума: <span id="total-price">0</span> грн</p>
+        <button id="clear-cart">Очистити кошик</button>
+        <a href="contacts.html">
+            <button class="order-btn">Замовити все</button>
+        </a>
+        
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
